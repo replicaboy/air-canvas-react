@@ -369,8 +369,10 @@ function App() {
           height={720}
           style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 10, objectFit: 'cover' }}
         ></canvas>
+    
 
       </div>
+      {/* J.A.R.V.I.S CREATOR WATERMARK - Ise yahan paste karein */}
       <div style={{ position: 'absolute', bottom: '15px', right: '25px', color: '#00FFFF', fontFamily: 'Orbitron, sans-serif', textAlign: 'right', zIndex: 100, textShadow: '0px 0px 8px #00FFFF', opacity: 0.8 }}>
         <div style={{ fontSize: '14px', letterSpacing: '2px', fontWeight: 'bold' }}>
           SYSTEM ARCHITECT: HARIOM THAKUR
@@ -378,6 +380,7 @@ function App() {
         <div style={{ fontSize: '11px', letterSpacing: '1px', marginTop: '4px', opacity: 0.7 }}>
           © 2026. All Rights Reserved. | GitHub: replicaboy
         </div>
+      </div>
     </div>
   );
 }
