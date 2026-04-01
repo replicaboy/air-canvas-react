@@ -371,6 +371,13 @@ function App() {
         ></canvas>
 
       </div>
+      <div style={{ position: 'absolute', bottom: '15px', right: '25px', color: '#00FFFF', fontFamily: 'Orbitron, sans-serif', textAlign: 'right', zIndex: 100, textShadow: '0px 0px 8px #00FFFF', opacity: 0.8 }}>
+        <div style={{ fontSize: '14px', letterSpacing: '2px', fontWeight: 'bold' }}>
+          SYSTEM ARCHITECT: HARIOM THAKUR
+        </div>
+        <div style={{ fontSize: '11px', letterSpacing: '1px', marginTop: '4px', opacity: 0.7 }}>
+          © 2026. All Rights Reserved. | GitHub: replicaboy
+        </div>
     </div>
   );
 }
